@@ -5,7 +5,10 @@
   "details": {
     "steps": [
       { "title": "Welcome", "text": "step1.md", "code": "install.sh" }
-    ]
+    ],
+    "intro": {
+      "text": "intro.md"
+    }
   },
 
   "environment": {
