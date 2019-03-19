@@ -19,4 +19,4 @@ Send a job to the server
 
 
 
-[1]: https://[[HOST_SUBDOMAIN]]-3000-[[KATACODA_HOST]].environments.katacoda.com/statuses
+[1]: https://[[HOST_SUBDOMAIN]]-3000-[[KATACODA_HOST]].environments.katacoda.com/statuses?poll=true
