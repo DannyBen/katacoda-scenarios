@@ -14,13 +14,13 @@ Run jobly worker in the background
 
 Visit the server URL
 
+[localhost:3000][1]
+
 Send a job to the server
 
 `jobly send Hello`{{execute}}
 
 
-[localhost:3000][1]
 
 
-
-[1]: https://[[HOST_SUBDOMAIN]]-3000-[[KATACODA_HOST]].environments.katacoda.com
+[1]: https://[[HOST_SUBDOMAIN]]-3000-[[KATACODA_HOST]].environments.katacoda.com/statuses
