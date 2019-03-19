@@ -4,11 +4,20 @@ Install jobly
 
 `gem install jobly`{{execute}}
 
-Run jobly server
+Run jobly server in the background
 
-`jobly server &`{{execute}}
+`nohup jobly server &`{{execute}}
+
+Run jobly worker in the background
+
+`nohup jobly worker &`{{execute}}
 
 Visit the server URL
+
+Send a job to the server
+
+`jobly send Hello`{{execute}}
+
 
 [localhost:3000][1]
 
