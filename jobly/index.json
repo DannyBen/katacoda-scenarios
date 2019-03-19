@@ -8,6 +8,11 @@
     ],
     "intro": {
       "text": "intro.md"
+    },
+    "assets": {
+      "host01": [
+        {"file": ".gemrc", "target": "~/"}
+      ]
     }
   },
 
