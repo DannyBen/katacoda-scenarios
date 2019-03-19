@@ -7,7 +7,6 @@
     "steps": [{ "title": "Welcome", "text": "welcome.md" }],
     "assets": {"host01": [
       {"file": ".gemrc", "target": "~/"},
-      {"file": ".bash_aliases", "target": "~/"},
       {"file": "jobs/hello.rb", "target": "~/jobs/"}
     ]}
   },

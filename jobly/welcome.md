@@ -24,7 +24,7 @@ Send a job to the server (repeat a few times)
 
 View the source code of the job Hello
 
-`cats jobs/Hello.rb`{{execute}}
+`cat jobs/Hello.rb`{{execute}}
 
 ---
 
