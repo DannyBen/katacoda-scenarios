@@ -2,10 +2,12 @@
   "title": "Jobly Demo",
   "description": "Jobly job server demo",
   "details": {
-    "steps": [{
-      "title": "Welcome",
-      "text": "step1.md"
-    }],
+    "steps": [
+      {
+        "title": "Welcome",
+        "text": "step1.md"
+      }
+    ],
     "intro": {
       "text": "intro.md",
       "code": "bootstrap.sh"
