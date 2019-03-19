@@ -3,17 +3,12 @@
   "description": "Jobly job server demo",
 
   "details": {
-    "steps": [
-      { "title": "Welcome", "text": "step1.md", "code": "bootstrap.sh" }
-    ],
-    "intro": {
-      "text": "intro.md"
-    },
-    "assets": {
-      "host01": [
-        {"file": "*", "target": "~/"}
-      ]
-    }
+    "intro": { "text": "intro.md", "code": "bootstrap.sh" },
+    "steps": [{ "title": "Welcome", "text": "welcome.md" }],
+    "assets": {"host01": [
+      {"file": ".gemrc", "target": "~/"},
+      {"file": "*", "target": "~/"}
+    ]}
   },
 
   "environment": {
