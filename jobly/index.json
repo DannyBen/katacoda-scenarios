@@ -1,4 +1,5 @@
 {
+  "noindex": true,
   "title": "Jobly Demo",
   "description": "Jobly job server demo",
   "details": {
@@ -8,15 +9,8 @@
         "text": "step1.md"
       }
     ],
-    "intro": {
-      "text": "intro.md",
-      "code": "bootstrap.sh"
-    },
-    "finish": {
-      "text": "finish.md"
-    },
     "assets": {
-      "client": [
+      "host01": [
         {
           "file": ".gemrc",
           "target": "~/"
@@ -25,6 +19,8 @@
     }
   },
   "environment": {
+    "hideintro": true, 
+    "hidefinish": true,
     "uilayout": "terminal"
   },
   "backend": {
