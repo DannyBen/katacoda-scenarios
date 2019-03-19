@@ -4,7 +4,7 @@
 
   "details": {
     "steps": [
-      { "title": "Welcome", "text": "step1.md", "code": "bootstrap.sh" }
+      { "title": "Welcome", "text": "step1.md", "code": "install.sh" }
     ]
   },
 
