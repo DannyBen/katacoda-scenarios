@@ -1,9 +1,9 @@
 {
-  "title": "Ruby Sandbox",
-  "description": "Ruby Playground and Base Scenario",
+  "title": "Jobly Demo",
+  "description": "Jobly job server demo",
   "details": {
     "steps": [{
-      "title": "Step 1 - Run Ruby",
+      "title": "Welcome",
       "text": "step1.md"
     }],
     "intro": {
