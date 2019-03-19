@@ -1,4 +1,6 @@
-Please wait while Ruby is installed.
+Please wait while Ruby is being installed.
+
+---
 
 Say hello to Jobly
 
@@ -20,6 +22,10 @@ Send a job to the server (repeat a few times)
 
 `jobly send Hello`{{execute}}
 
+View the source code of the job Hello
 
+`cats jobs/Hello.rb`{{execute}}
+
+---
 
 [1]: https://[[HOST_SUBDOMAIN]]-3000-[[KATACODA_HOST]].environments.katacoda.com/statuses?poll=true
