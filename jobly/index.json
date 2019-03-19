@@ -18,10 +18,14 @@
 
   "environment": {
     "hidefinish": true,
-    "uilayout": "terminal"
+    "uilayout": "terminal",
+    "showdashboard": true,
+    "dashboards": [{"name": "Jobly Server", "port": 3000}]
   },
 
   "backend": {
     "imageid": "ubuntu"
   }
 }
+
+
