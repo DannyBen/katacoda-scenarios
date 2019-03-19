@@ -1,9 +1,5 @@
 Please wait while Ruby is installed.
 
-Install jobly
-
-`gem install jobly`{{execute}}
-
 Run jobly server in the background
 
 `nohup jobly server &`{{execute}}
