@@ -14,7 +14,7 @@ Please wait while Ruby is installed.
 
 4. Visit the server URL
 
-
+[localhost:3000][1]
 
 
 
