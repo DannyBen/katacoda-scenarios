@@ -1,4 +1,4 @@
-Please wait while Ruby is installed.
+Please wait while Ruby is installed...
 
 ## Run Jobly CLI
 
