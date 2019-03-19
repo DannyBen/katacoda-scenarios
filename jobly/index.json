@@ -9,15 +9,7 @@
         "text": "step1.md",
         "code": "bootstrap.sh"
       }
-    ],
-    "assets": {
-      "host01": [
-        {
-          "file": ".gemrc",
-          "target": "~/"
-        }
-      ]
-    }
+    ]
   },
   "environment": {
     "hideintro": true, 
