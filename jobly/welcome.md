@@ -1,5 +1,9 @@
 Please wait while Ruby is installed.
 
+Say hello to Jobly
+
+`jobly`{{execute}}
+
 Run jobly server in the background
 
 `nohup jobly server &`{{execute}}
@@ -12,10 +16,9 @@ Visit the server URL
 
 [localhost:3000][1]
 
-Send a job to the server
+Send a job to the server (repeat a few times)
 
 `jobly send Hello`{{execute}}
-
 
 
 
