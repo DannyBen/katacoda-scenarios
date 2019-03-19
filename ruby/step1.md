@@ -1,3 +1,3 @@
-## Ruby is ready
+## Ruby is being installed.
 
-`ruby -v`{{execute}}
+Please wait while Ruby is installed.
