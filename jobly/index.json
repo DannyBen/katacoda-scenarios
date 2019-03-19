@@ -1,21 +1,19 @@
 {
-  "noindex": true,
   "title": "Jobly Demo",
   "description": "Jobly job server demo",
+
   "details": {
     "steps": [
-      {
-        "title": "Welcome",
-        "text": "step1.md",
-        "code": "bootstrap.sh"
-      }
+      { "title": "Welcome", "text": "step1.md", "code": "bootstrap.sh" }
     ]
   },
+
   "environment": {
     "hideintro": true, 
     "hidefinish": true,
     "uilayout": "terminal"
   },
+
   "backend": {
     "imageid": "ubuntu"
   }
