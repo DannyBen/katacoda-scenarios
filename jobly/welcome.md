@@ -34,7 +34,7 @@ Send a few more jobs, with parameters:
 
 View the Ping job's source code:
 
-`cat jobs/Ping.rb`{{execute}}
+`cat jobs/ping.rb`{{execute}}
 
 ---
 
