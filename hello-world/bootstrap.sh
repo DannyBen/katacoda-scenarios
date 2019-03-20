@@ -1,0 +1,2 @@
+echo "Hello"
+ruby --version
