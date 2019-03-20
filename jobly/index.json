@@ -4,15 +4,14 @@
 
   "details": {
     "intro": { "text": "intro.md", "code": "bootstrap.sh" },
+    "finish": { "text": "finish.md" },
     "steps": [{ "title": "Welcome", "text": "welcome.md" }],
     "assets": {"host01": [
-      {"file": ".gemrc", "target": "~/"},
-      {"file": "jobs/hello.rb", "target": "~/jobs/"}
+      {"file": ".gemrc", "target": "~/"}
     ]}
   },
 
   "environment": {
-    "hidefinish": true,
     "uilayout": "terminal",
     "showdashboard": true,
     "dashboards": [{"name": "Jobly Server", "port": 3000}]

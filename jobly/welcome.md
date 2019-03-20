@@ -2,29 +2,39 @@ Please wait while Ruby is being installed.
 
 ---
 
-Say hello to Jobly
+Say hello to Jobly:
 
 `jobly`{{execute}}
 
-Run jobly server in the background
+Create an initial jobs workspace:
+
+`jobly init test --full`{{execute}}
+`cd test`{{execute}}
+
+Start jobly server in the background:
 
 `nohup jobly server &`{{execute}}
 
-Run jobly worker in the background
+Start jobly worker in the background:
 
 `nohup jobly worker &`{{execute}}
 
-Visit the server URL
+Visit the dashboard:
 
 [localhost:3000][1]
 
-Send a job to the server (repeat a few times)
+Send a job to the server:
 
-`jobly send Hello`{{execute}}
+`jobly send Ping`{{execute}}
 
-View the source code of the job Hello
+Send a few more jobs, with parameters:
 
-`cat jobs/Hello.rb`{{execute}}
+`jobly send Hello name:Lloyd`{{execute}}
+`jobly send Hello name:Harry`{{execute}}
+
+View the Ping job's source code:
+
+`cat jobs/Ping.rb`{{execute}}
 
 ---
 
