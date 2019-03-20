@@ -1,0 +1,23 @@
+{
+  "title": "Debugging Katacoda",
+  "description": "Test Katacoda scenarios",
+  "details": {
+    "steps": [{
+      "title": "Step 1 - Run Ruby",
+      "text": "step1.md"
+    }],
+    "intro": {
+      "text": "intro.md",
+      "code": "get-ruby.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
