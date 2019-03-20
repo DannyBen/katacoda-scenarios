@@ -8,7 +8,7 @@ Say hello to Jobly:
 
 Create an initial jobs workspace:
 
-`jobly init test --full`{{execute}}
+`jobly init test`{{execute}}
 `cd test`{{execute}}
 
 Start jobly server in the background:
