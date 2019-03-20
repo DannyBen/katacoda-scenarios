@@ -2,7 +2,7 @@
   "title": "Ruby Sandbox",
   "description": "Ruby Playground and Base Scenario",
   "details": {
-    "intro": {"text": "intro.md", "courseData": "bootstrap.sh"},
+    "intro": {"text": "intro.md", "code": "bootstrap.sh"},
     "steps": [{"title": "Step 1 - Run Ruby", "text": "step1.md"}],
     "finish": {"text": "finish.md"},
     "assets": {"host01": [{"file": ".gemrc", "target": "~/"} ]}
