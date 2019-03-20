@@ -2,17 +2,10 @@
   "title": "Ruby Sandbox",
   "description": "Ruby Playground and Base Scenario",
   "details": {
-    "steps": [{
-      "title": "Step 1 - Run Ruby",
-      "text": "step1.md"
-    }],
-    "intro": {
-      "text": "intro.md",
-      "code": "get-ruby.sh"
-    },
-    "finish": {
-      "text": "finish.md"
-    }
+    "intro": {"text": "intro.md", "code": "bootstrap.sh"},
+    "steps": [{"title": "Step 1 - Run Ruby", "text": "step1.md"}],
+    "finish": {"text": "finish.md"},
+    "assets": {"host01": [{"file": ".gemrc", "target": "~/"} ]}
   },
   "environment": {
     "uilayout": "terminal"
