@@ -1,3 +1,5 @@
-This is a Jobly demo
+# Welcome to the Jobly interactive demo
 
-![Jobly](/dannyb/scenarios/jobly/assets/logo.svg)
+For the Jobly documentation and additional examples, visit:
+[jobly.dannyb.co](https://jobly.dannyb.co/)
+
