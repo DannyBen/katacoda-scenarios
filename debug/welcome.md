@@ -1,3 +1,5 @@
+(Version 2)
+
 Please wait while Ruby is being installed.
 
 ---
