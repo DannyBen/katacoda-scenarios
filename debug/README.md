@@ -1,4 +1,2 @@
-Katacoda Ruby Playground and Base Scenario
+Jobly Katacoda Demo
 ==================================================
-
-Includes Ruby 2.5 on Ubunutu.

@@ -1,4 +1,6 @@
-This is a base Ruby 2.5 environment on Ubuntu.
+# Welcome to the Jobly interactive demo
 
-![](/dannyb/scenarios/debug/assets/logo.svg)
+For the Jobly documentation and additional examples, visit:
+[jobly.dannyb.co](https://jobly.dannyb.co/)
+
 ![](/dannyb/scenarios/debug/assets/screen.gif)

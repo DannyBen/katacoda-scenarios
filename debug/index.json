@@ -1,15 +1,25 @@
 {
-  "title": "Debug Scenario",
+  "title": "Jobly Demo",
+  "description": "Jobly job server demo",
+
   "details": {
-    "intro": {"text": "intro.md"},
-    "steps": [{"title": "Step 1 - Run Ruby", "text": "step1.md"}],
-    "finish": {"text": "finish.md"},
-    "assets": {"host01": [{"file": ".gemrc", "target": "~/"} ]}
+    "intro": { "text": "intro.md", "code": "bootstrap.sh" },
+    "finish": { "text": "finish.md" },
+    "steps": [{ "title": "Welcome", "text": "welcome.md" }],
+    "assets": {"host01": [
+      {"file": ".gemrc", "target": "~/"}
+    ]}
   },
+
   "environment": {
-    "uilayout": "terminal"
+    "uilayout": "terminal",
+    "showdashboard": true,
+    "dashboards": [{"name": "Jobly Server", "port": 3000}]
   },
+
   "backend": {
     "imageid": "ruby"
   }
 }
+
+
