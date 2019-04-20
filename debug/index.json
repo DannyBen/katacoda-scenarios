@@ -1,7 +1,7 @@
 {
   "title": "Debug Scenario",
   "details": {
-    "intro": {"text": "intro.md", "code": "bootstrap.sh"},
+    "intro": {"text": "intro.md"},
     "steps": [{"title": "Step 1 - Run Ruby", "text": "step1.md"}],
     "finish": {"text": "finish.md"},
     "assets": {"host01": [{"file": ".gemrc", "target": "~/"} ]}
@@ -10,6 +10,6 @@
     "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "ubuntu"
+    "imageid": "ruby"
   }
 }
