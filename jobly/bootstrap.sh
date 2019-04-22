@@ -1,6 +1,5 @@
-apt-add-repository -y ppa:brightbox/ruby-ng
+PS1="\n\n\W \$ "
 apt-get -y update
-apt-get -y install ruby2.5 ruby2.5-dev redis-server < /dev/null
+apt-get -y install redis-server < /dev/null
 gem install jobly
-ruby --version
 jobly --version

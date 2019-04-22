@@ -1,4 +1,4 @@
-Please wait while Ruby is being installed.
+Please wait while Jobly is being installed.
 
 ---
 
